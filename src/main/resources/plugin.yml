@@ -1,4 +1,4 @@
-name: WTP016test
+name: WTP016 的 夹人 插件
 version: ${project.version}
 main: cn.wtp016cn.wtp016test.WTP016test
-api-version: 1.15
+

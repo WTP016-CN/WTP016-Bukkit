@@ -6,12 +6,13 @@ public final class WTP016test extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        getLogger().info("Y_Mical 正在 被 龙腾猫跃 夹")
 
     }
 
     @Override
     public void onDisable() {
+        System.out.println("Y_Mical 正在 被 WTP016 夹 (run");
         // Plugin shutdown logic
     }
 }
