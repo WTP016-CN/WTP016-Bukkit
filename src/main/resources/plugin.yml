@@ -1,4 +1,15 @@
-name: WTP016 的 夹人 插件
+name: WTP016-Test-Bukkit-Extension
 version: ${project.version}
-main: cn.wtp016cn.wtp016test.WTP016test
+main: cn.wtp016cn.testextension.TestExtension
+api-version: 1.15
+softdepend: [Vault]a
+authors: [WTP016-CN]
+commands:
+  hello:
+    description: This is WTP016's Bukkit Plugin's Command.
+    usage: /hello
+    permission: testextension.hello
+    permission-message: You don't have permission to do that. You can tell this error to server's operator if you believe it is an error.
+
+permissions:
 
